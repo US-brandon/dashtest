@@ -1,0 +1,136 @@
+@charset 'utf-8';
+
+@import 'settings';
+@import 'foundation';
+@import 'motion-ui';
+
+@include foundation-global-styles;
+@include foundation-grid;
+// @include foundation-flex-grid;
+//@include foundation-xy-grid-classes;
+@include foundation-typography;
+@include foundation-button;
+@include foundation-forms;
+// @include foundation-range-input;
+@include foundation-accordion;
+@include foundation-accordion-menu;
+@include foundation-badge;
+@include foundation-breadcrumbs;
+@include foundation-button-group;
+@include foundation-callout;
+@include foundation-card;
+@include foundation-close-button;
+@include foundation-menu;
+@include foundation-menu-icon;
+@include foundation-drilldown-menu;
+@include foundation-dropdown;
+@include foundation-dropdown-menu;
+@include foundation-responsive-embed;
+@include foundation-label;
+@include foundation-media-object;
+@include foundation-off-canvas;
+@include foundation-orbit;
+@include foundation-pagination;
+@include foundation-progress-bar;
+// @include foundation-progress-element;
+// @include foundation-progress-element;
+// @include foundation-meter-element;
+@include foundation-slider;
+@include foundation-sticky;
+@include foundation-reveal;
+@include foundation-switch;
+@include foundation-table;
+@include foundation-tabs;
+@include foundation-thumbnail;
+@include foundation-title-bar;
+@include foundation-tooltip;
+@include foundation-top-bar;
+@include foundation-visibility-classes;
+// @include foundation-float-classes;
+@include foundation-flex-classes;
+
+// @include foundation-prototype-classes;
+//DON'T FORGET TO OPEN A TERMINAL AND RUN "foundation watch"
+@include motion-ui-transitions;
+@include motion-ui-animations;
+
+@media only screen and (max-width: 1100px) {
+
+   body { }
+
+}
+
+.tile{
+	width:100%;
+	height: 13rem;
+	background-color: #1188C0;
+	position: relative;15
+}
+
+.field-container{
+	height: 12rem;
+	margin: .5rem 0;
+	width: 90%;
+	right: 0;
+	color: white;
+	position: absolute;
+}
+.bold {
+	font-weight: bold;
+}
+
+.vertical-text {
+	position: absolute;
+	transform: rotate(-90deg);
+	transform-origin: left bottom 0;
+	font-size: 2.5rem;
+	line-height: 2.5rem;
+	color: #035587;
+	bottom: 0;
+	left: 2.5rem;
+	margin: 0;
+
+
+}
+
+
+.tile-title{
+	height:100%;
+	width:10%;
+	left:0;
+	position: absolute;
+
+}
+
+.field-wrap{
+	height: 1.8rem;
+	margin: .1rem 0;
+	position: relative;
+
+}
+
+.name{
+	position: absolute;
+	height: 1.8rem;
+	line-height: 1.8rem;
+	max-width: 75%;
+	margin: 0;
+	left: 3%;
+	font-size: 1.3rem;
+}
+.value{
+	font-size: 1.3rem;
+	position: absolute;
+	max-width: 25%;
+	height: 1.6rem;
+	line-height: 1.6rem;
+	top: .2rem;
+	margin: 0;
+	right: 1rem;
+	color: #035587;
+	background-color: white;
+	text-align: center;
+}
+.field-break {
+	margin-bottom: 2rem;
+}
